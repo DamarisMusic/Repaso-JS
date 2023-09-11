@@ -18,7 +18,7 @@ function operación(x)
     return resultadooperación
 }
 alert(resultadooperación(25))
-/*en la página ponemos F12 (consola), y ponemos "operación(cualquier numero)"*/.
+/*en la página ponemos F12 (consola), y ponemos "operación(cualquier numero)"*/
 
 
 
@@ -44,4 +44,6 @@ function comprobarNota(notaExamen)
     else{
         estado = 'Desaprobaste, seguí estudiando😢'
     }
+    return estado
 }
+
